@@ -1,1 +1,7 @@
-require_relative "./vehicle.rb"
+class Car < Vehicle #Inherit car class from vehicle
+    
+    def go
+        "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+    end
+
+end
